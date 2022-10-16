@@ -1,6 +1,5 @@
-
-
 # Rebase 29bdccc..29bdccc onto 29bdccc (1 command)
+# 29bdccc..29bdccc を 29bdccc にリベース (1 コマンド)
 #
 # Commands:
 # p, pick <commit> = use commit
