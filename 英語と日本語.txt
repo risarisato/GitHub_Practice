@@ -1,0 +1,67 @@
+
+
+# Rebase 29bdccc..29bdccc onto 29bdccc (1 command)
+#
+# Commands:
+# p, pick <commit> = use commit
+# p, pick <commit> = commit を使用
+
+# r, reword <commit> = use commit, but edit the commit message
+# r, reword <commit> = commit を使用しますが、commit メッセージを編集します
+
+# e, edit <commit> = use commit, but stop for amending
+# e, edit <commit> = コミットを使用しますが、修正のために停止します
+
+# s, squash <commit> = use commit, but meld into previous commit
+# s, squash <commit> = コミットを使用しますが、前のコミットに融合します
+
+# f, fixup [-C | -c] <commit> = like "squash" but keep only the previous
+# f、フィックスアップ [-C | -c] <commit> = 「スカッシュ」に似ていますが、以前のもののみを保持します
+
+#                    commit's log message, unless -C is used, in which case
+                      # -C が使用されていない限り、コミットのログ メッセージ。
+#                    keep only this commit's message; -c is same as -C but
+                      # このコミットのメッセージのみを保持します。 -c は -C と同じですが、
+
+#                    opens the editor
+                      # エディタを開く
+
+# x, exec <command> = run command (the rest of the line) using shell
+# x, exec <command> = シェルを使用してコマンド (行の残り) を実行
+
+# b, break = stop here (continue rebase later with 'git rebase --continue')
+# b, break = ここで停止 ('git rebase --continue' で後でリベースを続行)
+
+
+# d, drop <commit> = remove commit
+# d, drop <commit> = コミットを削除
+
+
+# l, label <label> = label current HEAD with a name
+# l, label <label> = 現在の HEAD に名前を付ける
+
+# t, reset <label> = reset HEAD to a label
+# t, reset <label> = HEAD をラベルにリセット
+
+# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+# m, マージ [-C <コミット> | -c <コミット>] <ラベル> [# <ワンライン>]
+
+# .       create a merge commit using the original merge commit's
+          # .元のマージ コミットを使用してマージ コミットを作成する
+
+# .       message (or the oneline, if no original merge commit was
+          # .メッセージ (または、元のマージ コミットがない場合は、1 行)
+
+# .       specified); use -c <commit> to reword the commit message
+          # .指定）; -c <commit> を使用して、コミット メッセージを言い換えます
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+# これらの行は並べ替えることができます。それらは上から下に実行されます。
+
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+# ここで行を削除すると、コミットが失われます。
+
+#
+# However, if you remove everything, the rebase will be aborted.
+# ただし、すべてを削除すると、リベースは中止されます。
