@@ -35,8 +35,8 @@
 			padding: 4px 0 12px 60px;
 		}
 		.textarea999 {
-			width: 65%;
-			height: 75px;
+			width: 100%;
+			height: 200px;
 		}
 		.header {
 			margin: 10px 8px 0 9px;
@@ -93,11 +93,10 @@
 </head>
 
 <body>
-	<div id="app">
-    <textarea id="textarea999">
-			name
-		</textarea>
+	<!-- id属性はJavaScriptで使うのが慣習 -->
+    <textarea id="textarea999">999textereaでjavascriptで改行しています。ここに文字が入る文字の折り返しテストここに文字が入る文字の折り返しテスト</textarea>
 </div>
+	<!-- class属性はCSSで使うのが慣習 -->
 	<div class="div_border">
 		<div class="div_border2">
 			<div class="title">GitHub練習CSSとHTML</div>
@@ -115,6 +114,7 @@
 			<input type="reset" value="ﾘｾｯﾄする">
 			</form>
 			<script>
+				let name = "あいうえおかきくけこさしすせそ";
 				const textarea = document.getElementById("text002");
 				textarea.addEventListener("input", function () {
 					if (this.value.length >= 5) {
